@@ -17,6 +17,8 @@ for letter in user_word:
       continue
     elif letter.lower() == 'o':
       continue
+    elif letter.lower() == 'u':
+      continue
     else:
-        word_without_vowels = '' + letter
+        word_without_vowels += '' + letter
     print(word_without_vowels)
